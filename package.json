@@ -1,0 +1,26 @@
+{
+  "name": "node.js-clean-architecture-sample",
+  "version": "1.0.0",
+  "description": "Sample Implementation of Node.js Clean Architecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.1"
+  }
+}
